@@ -1,6 +1,7 @@
 <?php
 	$config = array(
 		'token'=>'12345,0123456789abcde0123456789abcde01',
+		//到https://www.dnspod.cn/console/user/security创建Token，这里的Token包括ID和Token两部分，用逗号分隔
 		'subdomain'=>'www',
 		'domain'=>'cyyself.name'
 	);
