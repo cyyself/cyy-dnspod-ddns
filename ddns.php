@@ -7,7 +7,7 @@
 	);
 	function get_public_ip() {
 		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, 'https://api-ipv4.ip.sb/ip');
+		curl_setopt($ch, CURLOPT_URL, 'http://ns1.dnspod.net:6666');
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		$result = trim(curl_exec($ch));
 		$ip = array();
